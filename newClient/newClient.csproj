@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="WebSocketSharp" Version="1.0.3-rc11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="libzkfpcsharp">
+      <HintPath>..\..\..\..\Downloads\ZKFingerSDK_Windows_ZK10_Standard\ZKFingerSDK_Windows_ZK10_Standard\C#\lib\x64\libzkfpcsharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
